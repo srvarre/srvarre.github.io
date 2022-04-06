@@ -4,7 +4,7 @@
 #### Currently digging into Data Analytics and Machine Learning domain :wink:
 
 - 🔭 I’m currently working on - AWS and Azure
-- 🌱 I’m currently learning - Art of writing blogs, <img alt="Microsoft Azure" src="https://img.shields.io/badge/Microsoft Azure-0089D6?logo=microsoft+azure&logoColor=white&style=flat" /> <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&style=flat">
+- 🌱 <img alt="Microsoft Azure" src="https://img.shields.io/badge/Microsoft Azure-0089D6?logo=microsoft+azure&logoColor=white&style=flat" /> <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&style=flat">
 - 💬 Ask me about - AWS, Azure, Cloud
 - :computer: Current Interest - Python, Data Analytics, Machine learning
 - 📫 How to reach me: <a href="https://www.linkedin.com/in/varre/">
@@ -30,10 +30,7 @@
   <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=flat" />
   <img alt="SQL Server" src="https://img.shields.io/badge/SQL Server-CC2927?logo=microsoft+sql+server&logoColor=white&style=flat" />
 </p>
-<p>
-  <img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind CSS-38B2AC?&logo=tailwind+css&logoColor=white&style=flat"/>
-  <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3?&logo=bootstrap&logoColor=white&style=flat"/>
-</p>
+
 
 **Version Control and Development tools used:**
 <p>
