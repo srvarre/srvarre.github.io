@@ -1,106 +1,60 @@
-/* -------------------- tabbed content using CSS Grid
+.heading-design {
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: solid 1px #212121;
+    padding: 2rem;
+    transition: background-color 0.5s ease;
+}
 
--- allows for unlimited tabs/content blocks without additional configuration
+.heading-design:hover {
+    background-color: #ff9800;
+    border-bottom: solid 1px #ff9800;
+}
 
-*/
+.heading-prog {
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: solid 1px #212121;
+    padding: 2rem;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+}
 
-.products-wrapper {
-	margin: 20px;
-	.tabs-wrapper {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
-		grid-template-rows: minmax(max-content, min-content);
-		justify-items: center;
-		margin-bottom: 2rem;
+.heading-prog:hover {
+    color: #eeeeee;
+    background-color: #212121;
+    border-bottom: solid 1px #212121;
+}
 
-		.tab-item {
-			min-width: min-content;
-			width: auto;
-			height: auto;
-			align-self: center;
-			text-align: center;
-			cursor: pointer;
-			padding: 0 10px;
+.heading-music {
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: solid 1px #212121;
+    padding: 2rem;
+    transition: background-color 0.5s ease;
+}
 
-			img {
-				height: auto;
-				max-height: 128px;
-				filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
-			}
+.heading-music:hover {
+    background-color: #ff6f61;
+    border-bottom: solid 1px #ff6f61;
+}
 
-			&:hover img {
-				filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.2));
-			}
-		}
+.tab-content {
+    display: none;
+}
 
-		@media screen and (min-width: 600px) {
-			grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-		}
+.left-content {
+    padding-left: 4rem;
+    padding-top: 4rem;
+    font-size: 3.75rem;
+}
 
-		@media screen and (min-width: 1200px) {
-			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-		}
-	}
+.right-content {
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
 
-	.tabbed-content {
-		height: min-content;
-		// width: auto;
-		// margin: auto;
-
-		.item-content {
-			width: 100%;
-			display: none;
-			grid-auto-rows: repeat(auto-fit, minmax(auto, max-content));
-			grid-gap: 2rem;
-			opacity: 0;
-			transition: all 0.5s ease-out;
-
-			&.active {
-				display: grid;
-				opacity: 1;
-				transition: all 0.5s ease-out;
-			}
-
-			.highlights {
-				padding: 1rem;
-
-				&:hover,
-				&:focus {
-					background-color: rgba(blue, 0.2);
-					border-radius: 2rem;
-					transition: all 0.5s ease-out;
-				}
-
-				p {
-					margin: auto;
-				}
-			}
-		}
-
-		@media screen and (min-width: 600px) {
-			.item-content {
-				grid-template-columns: repeat(2, 1fr);
-
-				.highlights {
-					// padding: 5rem;
-				}
-			}
-		}
-	}
-
-	@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-		margin: 6rem;
-	}
-
-	@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-		margin: 5rem;
-	}
-
-	@media screen and (min-width: 1200px) {
-		margin: 7rem;
-	}
-
-	@media screen and (min-width: 1800px) {
-		margin: 10rem;
-	}
+.img-custwidth {
+    padding-top: 4rem;
+    width: 512px;
 }
